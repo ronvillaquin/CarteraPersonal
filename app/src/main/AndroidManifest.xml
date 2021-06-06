@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="LockedOrientationActivity"
+    package="com.rrvq.carterapersonal">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.rrvq.carterapersonal.Main2Activity_PRO"
+            android:parentActivityName="com.rrvq.carterapersonal.Main2Activity_Calendario"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.rrvq.carterapersonal.Bienvenida"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.rrvq.carterapersonal.SplashScream"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.rrvq.carterapersonal.Main2Activity_Transferencia_edit"
+            android:parentActivityName="com.rrvq.carterapersonal.Main2Activity_Calendario"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.rrvq.carterapersonal.Main2Activity_Gasto_edit"
+            android:parentActivityName="com.rrvq.carterapersonal.Main2Activity_Calendario"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rrvq.carterapersonal.Main2Activity_Ingreso_edit"
+            android:parentActivityName="com.rrvq.carterapersonal.Main2Activity_Calendario"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rrvq.carterapersonal.Main2Activity_Calendario"
+            android:parentActivityName="com.rrvq.carterapersonal.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rrvq.carterapersonal.Main2Activity_Ajustes"
+            android:parentActivityName="com.rrvq.carterapersonal.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rrvq.carterapersonal.Main2Activity_Categorias_edit"
+            android:parentActivityName="com.rrvq.carterapersonal.Main2Activity_Categorias"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rrvq.carterapersonal.Main2Activity_Cuentas"
+            android:parentActivityName="com.rrvq.carterapersonal.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rrvq.carterapersonal.Main2Activity_Categorias_add"
+            android:parentActivityName="com.rrvq.carterapersonal.Main2Activity_Categorias"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rrvq.carterapersonal.Main2Activity_Categorias"
+            android:parentActivityName="com.rrvq.carterapersonal.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rrvq.carterapersonal.Main2Activity_Ingreso"
+            android:parentActivityName="com.rrvq.carterapersonal.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rrvq.carterapersonal.Main2Activity_Gasto"
+            android:parentActivityName="com.rrvq.carterapersonal.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rrvq.carterapersonal.Main2Activity_Transferencia"
+            android:parentActivityName="com.rrvq.carterapersonal.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rrvq.carterapersonal.Main2Activity_Grafica"
+            android:parentActivityName="com.rrvq.carterapersonal.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rrvq.carterapersonal.MainActivity"
+            android:screenOrientation="portrait" />
+
+
+<!--        ESTES ES EL MIO ca-app-pub-3019606122027900~2256301249-->
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3019606122027900~2256301249"/>
+
+
+    </application>
+
+</manifest>
