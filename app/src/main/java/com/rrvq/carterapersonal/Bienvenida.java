@@ -8,6 +8,7 @@ import android.view.View;
 
 public class Bienvenida extends AppCompatActivity {
 
+    // por ser la bienvenida se estan haciendo cambio  para todas las pantallas de esta a lo mejor se eliminen
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
