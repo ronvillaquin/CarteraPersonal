@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     //Cursor para los select de las tablas
     Cursor fila, g;
+
     //para list iconos y texto de las categorias Gastos
     ImageButton[] castinImage;
     TextView[] castintv1, castintv1_1, castintvmonto;
@@ -68,6 +69,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             R.id.tv6_monto, R.id.tv7_monto, R.id.tv8_monto, R.id.tv9_monto, R.id.tv10_monto, R.id.tv11_monto, R.id.tv12_monto};
 
     ImageButton btn_img1;
+
     int mesString[] = {R.string.enero, R.string.febrero, R.string.marzo, R.string.abril, R.string.mayo,
             R.string.junio, R.string.julio, R.string.agosto, R.string.setiembre, R.string.octubre, R.string.noviembre, R.string.diciembre};
 
@@ -100,6 +102,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         AdminSQLiteOpenHelper adminDB = new AdminSQLiteOpenHelper(this, "BDCartera", null, 1);
         SQLiteDatabase baseDeDatos = adminDB.getWritableDatabase();
 
+
         fila = baseDeDatos.rawQuery("SELECT count(*) FROM preferencias", null);
         int icount_inicio = 0;
         if (fila.moveToFirst()) {
@@ -108,6 +111,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         //si existen cuenta entra aqui si no al else
         if (icount_inicio > 0) {
+
 
             // recupero el tipo de moneda
             fila = baseDeDatos.rawQuery("SELECT tipo_moneda FROM preferencias", null);
