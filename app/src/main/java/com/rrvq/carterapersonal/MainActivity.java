@@ -34,6 +34,8 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
 
+
+    // probando el cambio que se hizo en el main activity este no debe estar en master
     //vista en general
     DrawerLayout drawerLayout;
     Toolbar toolbar;
