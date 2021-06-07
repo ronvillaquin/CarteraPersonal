@@ -84,10 +84,6 @@
             android:parentActivityName="com.rrvq.carterapersonal.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rrvq.carterapersonal.Main2Activity_Grafica"
-            android:parentActivityName="com.rrvq.carterapersonal.MainActivity"
-            android:screenOrientation="portrait" />
-        <activity
             android:name="com.rrvq.carterapersonal.MainActivity"
             android:screenOrientation="portrait" />
 
