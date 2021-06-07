@@ -18,13 +18,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name="com.rrvq.carterapersonal.Main2Activity_PRO"
-            android:parentActivityName="com.rrvq.carterapersonal.Main2Activity_Calendario"
-            android:screenOrientation="portrait"/>
-
-        <activity android:name="com.rrvq.carterapersonal.Bienvenida"
-            android:screenOrientation="portrait"/>
-
         <activity android:name="com.rrvq.carterapersonal.SplashScream"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -34,55 +27,6 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name="com.rrvq.carterapersonal.Main2Activity_Transferencia_edit"
-            android:parentActivityName="com.rrvq.carterapersonal.Main2Activity_Calendario"
-            android:screenOrientation="portrait" />
-
-        <activity
-            android:name="com.rrvq.carterapersonal.Main2Activity_Gasto_edit"
-            android:parentActivityName="com.rrvq.carterapersonal.Main2Activity_Calendario"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.rrvq.carterapersonal.Main2Activity_Ingreso_edit"
-            android:parentActivityName="com.rrvq.carterapersonal.Main2Activity_Calendario"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.rrvq.carterapersonal.Main2Activity_Calendario"
-            android:parentActivityName="com.rrvq.carterapersonal.MainActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.rrvq.carterapersonal.Main2Activity_Ajustes"
-            android:parentActivityName="com.rrvq.carterapersonal.MainActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.rrvq.carterapersonal.Main2Activity_Categorias_edit"
-            android:parentActivityName="com.rrvq.carterapersonal.Main2Activity_Categorias"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.rrvq.carterapersonal.Main2Activity_Cuentas"
-            android:parentActivityName="com.rrvq.carterapersonal.MainActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.rrvq.carterapersonal.Main2Activity_Categorias_add"
-            android:parentActivityName="com.rrvq.carterapersonal.Main2Activity_Categorias"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.rrvq.carterapersonal.Main2Activity_Categorias"
-            android:parentActivityName="com.rrvq.carterapersonal.MainActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.rrvq.carterapersonal.Main2Activity_Ingreso"
-            android:parentActivityName="com.rrvq.carterapersonal.MainActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.rrvq.carterapersonal.Main2Activity_Gasto"
-            android:parentActivityName="com.rrvq.carterapersonal.MainActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.rrvq.carterapersonal.Main2Activity_Transferencia"
-            android:parentActivityName="com.rrvq.carterapersonal.MainActivity"
-            android:screenOrientation="portrait" />
         <activity
             android:name="com.rrvq.carterapersonal.MainActivity"
             android:screenOrientation="portrait" />
